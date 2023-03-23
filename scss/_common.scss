@@ -16,7 +16,6 @@ html {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  text-decoration: none;
 }
 
 *,
@@ -38,7 +37,7 @@ img {
 
 body {
   height: 100%;
-  font-family: "Arial", sans-serif;
+  font-family: "Poppins", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: var(--text-color);
@@ -89,6 +88,71 @@ body {
 /* MAIN CONTENT */
 .main-content {
   flex-grow: 1;
+}
+
+/* BUTTON */
+.button {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  background-color: crimson;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 2px;
+  transition: color 0.5s ease, background-color 0.5s ease;
+
+  &:hover {
+    background-color: #fff;
+    color: #000;
+  }
+}
+
+/* MAIN TITLE */
+.main-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+.main-title__heading {
+  position: relative;
+  color: crimson;
+  font-size: 38px;
+  line-height: 1.2;
+  font-weight: 800;
+
+  &::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    background-color: crimson;
+    width: 140px;
+    height: 4px;
+    bottom: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    background-color: crimson;
+    bottom: -12px;
+    left: 50%;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 /* RETINA BGS */

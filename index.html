@@ -9,14 +9,342 @@
     <!-- Favicon -->
     <!-- <link rel="shortcut icon" href="images/favicon.png"> -->
 
+    <!-- Font-Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/main.css" />
   </head>
 
   <body>
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="container site-header__container">
+        <!-- LOGO -->
+        <a class="site-header__logo logo" href="/">Sukhrobbek</a>
+        <!-- /LOGO -->
+
+        <!-- SITENAV -->
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__link">Home</a>
+            </li>
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__link">About</a>
+            </li>
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__link">Skills</a>
+            </li>
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__link">Services</a>
+            </li>
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__link">Work</a>
+            </li>
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- /SITENAV -->
+      </div>
+    </header>
+    <!-- /HEADER -->
+
     <!-- MAIN CONTENT -->
-    <main class="main-content"></main>
+    <main class="main-content">
+      <!-- HERO -->
+      <section class="hero" id="#hero">
+        <!-- HERO CONTENT -->
+        <div class="hero__content container">
+          <h2 class="hero__title">
+            Hello I'm<br /><span class="hero__title-inner"
+              >Sukhrobbek Soatov</span
+            >
+          </h2>
+          <div class="hero__animated-text animated-text-hero">
+            <h3 class="animated-text-hero__heading">Junior</h3>
+            <h3 class="animated-text-hero__heading">Front-End</h3>
+            <h3 class="animated-text-hero__heading">Developer</h3>
+          </div>
+          <a class="hero__link button" href="#">See My Work</a>
+
+          <!-- HERO SOCIALS -->
+          <div class="hero__socials socials-hero">
+            <a class="socials-hero__link" href="#">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a class="socials-hero__link" href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a class="socials-hero__link" href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- /HERO -->
+
+      <!-- ABOUT -->
+      <section class="about" id="#about">
+        <div class="main-title reveal">
+          <h2 class="main-title__heading">About Me</h2>
+        </div>
+        <div class="container about__inner main-inner">
+          <div class="about__image-wrapper reveal">
+            <img
+              class="about__image"
+              src="https://picsum.photos/461/456"
+              alt="Sukhrobbek Soatov"
+              width="461"
+              height="456"
+              srcset="
+                https://picsum.photos/461/456 1x,
+                https://picsum.photos/922/912 2x
+              "
+            />
+          </div>
+          <div class="about__content reveal">
+            <h3 class="about__title">Hey there! I'm Samar Badriddinov</h3>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id
+              numquam error voluptatem sit repudiandae saepe voluptatum? Nostrum
+              deserunt suscipit laudantium culpa nesciunt! Id est voluptates
+              pariatur, at quidem ut adipisci rem commodi beatae labore
+              cupiditate possimus modi, expedita blanditiis dolorem sit
+              architecto eligendi fugit, cum sunt! Eveniet eum culpa perferendis
+              est at porro sapiente fugiat maiores provident? Repellendus,
+              dolores. Qui?
+            </p>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id
+              numquam error voluptatem sit repudiandae saepe voluptatum? Nostrum
+              deserunt suscipit laudantium culpa nesciunt! Id est voluptates
+              pariatur, at quidem ut adipisci rem commodi beatae labore
+              cupiditate possimus modi, expedita blanditiis dolorem sit
+              architecto eligendi fugit, cum sunt! Eveniet eum culpa perferendis
+              est at porro sapiente fugiat maiores provident? Repellendus,
+              dolores. Qui?
+            </p>
+            <a class="button about__link" href="#">See More</a>
+          </div>
+        </div>
+      </section>
+      <!-- /ABOUT -->
+
+      <!-- SKILLS -->
+      <section class="skills" id="skills">
+        <div class="main-title reveal">
+          <h2 class="main-title__heading">My Skills</h2>
+        </div>
+        <div class="container skills__inner">
+          <!-- SKILLS CONTENT -->
+          <div class="skills__content reveal">
+            <h3 class="skills__title">My Skills and Experiences</h3>
+            <p class="skills__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              porro quidem, eligendi labore ipsa debitis ducimus voluptatum
+              officia. Ratione quia illo exercitationem, laborum dolorum nobis
+              nesciunt dignissimos voluptate maxime maiores, mollitia a expedita
+              hic voluptatum fuga et vitae eligendi quod? Aliquam non laudantium
+              exercitationem quo possimus voluptas aliquid tempora suscipit odio
+              veniam pariatur sint amet, sequi cupiditate ullam. Eligendi, quas
+              ipsam reiciendis doloremque repellendus magni tempore quia
+              doloribus distinctio maiores?
+            </p>
+            <a class="button skills__link" href="#">See More</a>
+          </div>
+
+          <!-- SKILSS TECH STACKS -->
+          <div class="skills__tech-stacks tech-stacks-skills reveal">
+            <div class="tech-stacks-skills__stack">
+              <div class="tech-stacks-skills__info">
+                <span class="tech-stacks-skills__name">HTML</span>
+                <span class="tech-stacks-skills__percent">95%</span>
+              </div>
+              <div
+                class="tech-stacks-skills__line tech-stacks-skills__line--html"
+              ></div>
+            </div>
+            <div class="tech-stacks-skills__stack">
+              <div class="tech-stacks-skills__info">
+                <span class="tech-stacks-skills__name">CSS</span>
+                <span class="tech-stacks-skills__percent">85%</span>
+              </div>
+              <div
+                class="tech-stacks-skills__line tech-stacks-skills__line--css"
+              ></div>
+            </div>
+            <div class="tech-stacks-skills__stack">
+              <div class="tech-stacks-skills__info">
+                <span class="tech-stacks-skills__name">JavaScript</span>
+                <span class="tech-stacks-skills__percent">80%</span>
+              </div>
+              <div
+                class="tech-stacks-skills__line tech-stacks-skills__line--javascipt"
+              ></div>
+            </div>
+            <div class="tech-stacks-skills__stack">
+              <div class="tech-stacks-skills__info">
+                <span class="tech-stacks-skills__name">JQuery</span>
+                <span class="tech-stacks-skills__percent">80%</span>
+              </div>
+              <div
+                class="tech-stacks-skills__line tech-stacks-skills__line--jquery"
+              ></div>
+            </div>
+            <div class="tech-stacks-skills__stack">
+              <div class="tech-stacks-skills__info">
+                <span class="tech-stacks-skills__name">PHP</span>
+                <span class="tech-stacks-skills__percent">70%</span>
+              </div>
+              <div
+                class="tech-stacks-skills__line tech-stacks-skills__line--php"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /SKILLS -->
+
+      <!-- SERVICES -->
+      <section class="services" id="services">
+        <div class="main-title reveal">
+          <h2 class="main-title__heading">My Services</h2>
+        </div>
+        <div class="container services__inner">
+          <p class="services__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            harum molestiae quaerat odio dolores accusamus? Praesentium id
+            voluptatem a similique nostrum minima assumenda, ratione et
+            distinctio fuga quidem odit ipsa?
+          </p>
+          <div class="services__cards">
+            <div class="services__card card-services reveal">
+              <div class="card-services__icons-wrapper">
+                <i class="fas fa-palette"></i>
+              </div>
+              <div class="card-services__info">
+                <h3 class="card-services__title">Web Design</h3>
+                <p class="card-services__text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Nulla hic expedita totam possimus aliquid! Natus esse magnam
+                  eaque excepturi enim aliqua
+                </p>
+              </div>
+            </div>
+            <div class="services__card card-services reveal">
+              <div class="card-services__icons-wrapper">
+                <i class="fas fa-file-code"></i>
+              </div>
+              <div class="card-services__info">
+                <h3 class="card-services__title">Web Developer</h3>
+                <p class="card-services__text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Nulla hic expedita totam possimus aliquid! Natus esse magnam
+                  eaque excepturi enim aliqua
+                </p>
+              </div>
+            </div>
+            <div class="services__card card-services reveal">
+              <div class="card-services__icons-wrapper">
+                <i class="fas fa-object-group"></i>
+              </div>
+              <div class="card-services__info">
+                <h3 class="card-services__title">YouTuber</h3>
+                <p class="card-services__text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Nulla hic expedita totam possimus aliquid! Natus esse magnam
+                  eaque excepturi enim aliqua
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /SERVICES -->
+
+      <!-- WORK -->
+      <section class="work" id="work">
+        <div class="main-title reveal">
+          <h2 class="main-title__heading">My Work</h2>
+        </div>
+        <div class="container work__cards">
+          <div class="work__card card-work">
+            <img
+              class="card-work__image"
+              src="images/work1.jpg"
+              alt="work"
+              width="340"
+              height="255"
+            />
+          </div>
+          <div class="work__card card-work">
+            <img
+              class="card-work__image"
+              src="images/work2.jpg"
+              alt="work"
+              width="340"
+              height="255"
+            />
+          </div>
+          <div class="work__card card-work">
+            <img
+              class="card-work__image"
+              src="images/work3.jpg"
+              alt="work"
+              width="340"
+              height="255"
+            />
+          </div>
+          <div class="work__card card-work">
+            <img
+              class="card-work__image"
+              src="images/work4.jpg"
+              alt="work"
+              width="340"
+              height="255"
+            />
+          </div>
+          <div class="work__card card-work">
+            <img
+              class="card-work__image"
+              src="images/work5.jpg"
+              alt="work"
+              width="340"
+              height="255"
+            />
+          </div>
+          <div class="work__card card-work">
+            <img
+              class="card-work__image"
+              src="images/work6.jpg"
+              alt="work"
+              width="340"
+              height="255"
+            />
+          </div>
+        </div>
+        <div class="work__btn-wrapper">
+          <a class="button work__link" href="#">See All</a>
+        </div>
+      </section>
+      <!-- /WORK -->
+
+      <!-- CONTACT -->
+      <section class="contact">
+        <div class="main-title reveal">
+          <h2 class="main-title__heading">Contact Me</h2>
+        </div>
+        <!-- 1:27 -->
+      </section>
+      <!-- /CONTACT -->
+    </main>
     <!-- /MAIN CONTENT -->
 
     <!-- SCRIPTS -->
